@@ -31,9 +31,41 @@ header ul li{
     text-align: center;
 }
 
-header ul li:hover{
+header ul li a:hover{
     color: green;
     font-weight: bold;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+} 
+
+/* Banner */
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.banner-image {
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+} 
+
+.search-container {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.search-container h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 128, 0, 0.4) 5px 5px 2px;
+    font-size: 3.0em;
+    text-align: center;
 }
 
 
