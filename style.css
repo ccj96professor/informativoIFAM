@@ -8,7 +8,6 @@
 header{
     /* height: 10%; */
     /* background-color: aqua; */
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,13 +44,16 @@ header ul li a{
 .banner {
     position: relative;
     text-align: center;
+    margin: 50px 0px;
 }
 
 .banner-image {
     width: 80%;
     height: 400px;
-    object-fit: cover;
-} 
+    object-fit: cover;/*redimensiona a imagem ao tamanho do container*/
+    border: solid white 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+}
 
 .search-container {
     position: absolute;
@@ -63,9 +65,24 @@ header ul li a{
 
 .search-container h1 {
     color: rgb(255, 255, 255);
-    text-shadow: rgb(0, 128, 0, 0.4) 5px 5px 2px;
+    text-shadow: rgba(0, 0, 0, 0.4) 5px 5px 2px;
     font-size: 3.0em;
     text-align: center;
+}
+
+main{
+    width: 950px;
+    margin: auto;
+}
+main h2, p{
+    margin-bottom: 100px;
+}
+main p{
+    font-size: 1.5em;
+    text-align: justify;
+}
+section{
+    height: 100vh;
 }
 
 
