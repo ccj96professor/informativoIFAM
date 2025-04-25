@@ -99,8 +99,10 @@ main p{
     background-color: white;
     padding: 40px;
     display: flex;
-    justify-content: center;
+
+    justify-content: space-between;
     align-items: center;
+
     
 }
 .sobre-ifam-content {
